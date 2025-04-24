@@ -28,14 +28,12 @@ ul {
 /* utility */
 
 .custom-container {
-  max-width: 1180px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
-/* row-columns */
 
 .custom-row {
   display: flex;
@@ -56,20 +54,46 @@ ul {
 
 .custom-col-1-3 {
   width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
 }
 
-/* fine row-columns */
+.custom-card {
+  height: 400px;
+  width: 90%;
+  background-color: white;
+}
+.custom-card-img {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  height: 70%;
+}
+.custom-card-text {
+  background-color: aqua;
+  text-align: center;
+}
+
+body {
+  background-image: url(./img/cork.png);
+  overflow: auto;
+}
+main {
+  padding-top: 4rem;
+}
 
 header {
   background-image: url(./img/wall.png);
-  height: 12rem;
+  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: Edu Tas Beginner, sans-serif;
   font-weight: bolder;
 }
