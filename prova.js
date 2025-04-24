@@ -1,7 +1,4 @@
 const imgUrl = "https://lanciweb.github.io/demo/api/pictures/";
-const customCardImg = document.querySelector(".custom-card-img");
-const customCardTitle = document.querySelector(".custom-card-title");
-const customCardText = document.querySelector(".custom-card-text");
 const customRow = document.querySelector(".custom-row");
 
 axios.get(imgUrl).then((response) => {
