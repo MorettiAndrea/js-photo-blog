@@ -108,3 +108,9 @@ h1 {
   font-family: Edu Tas Beginner, sans-serif;
   font-weight: bolder;
 }
+h5 {
+  font-size: 1.2rem;
+  font-family: Edu Tas Beginner, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
