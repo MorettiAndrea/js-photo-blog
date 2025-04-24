@@ -62,9 +62,10 @@ ul {
   height: 400px;
   width: 90%;
   background-color: white;
+  position: relative;
 }
 .custom-card-img {
-  background-color: red;
+  background-color: #92c952;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,6 +75,17 @@ ul {
 .custom-card-text {
   background-color: aqua;
   text-align: center;
+}
+
+.nail {
+  position: absolute;
+  background-color: #9a2f25;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: -2%;
+  right: 46%;
+  border: gray solid 1px;
 }
 
 body {
