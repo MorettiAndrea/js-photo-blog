@@ -1,5 +1,10 @@
+// variabili generali
 const imgUrl = "https://lanciweb.github.io/demo/api/pictures/";
 const customRow = document.querySelector(".custom-row");
+const overlay = document.querySelector(".overlay");
+const overlayCloseButton = document.querySelector(".overlay-close-button");
+
+// logica creazione card
 
 axios.get(imgUrl).then((response) => {
   const urlContent = response.data;
@@ -19,4 +24,6 @@ axios.get(imgUrl).then((response) => {
           </div>`;
   });
   customRow.innerHTML = emptyCard;
+
+  // gestione ingrandimento card
 });
