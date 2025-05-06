@@ -62,11 +62,18 @@ ul {
 
 .custom-card {
   flex-shrink: 1;
-  height: 400px;
   width: 350px;
   background-color: white;
   position: relative;
   margin-bottom: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.custom-card:active {
+  transform: rotate(0.1turn);
+}
+.custom-card-img:hover {
+  zoom: 20%;
 }
 .custom-card-img {
   background-color: white;
@@ -91,7 +98,7 @@ ul {
   width: 30px;
   border-radius: 50%;
   top: -2%;
-  right: 46%;
+  right: 45%;
 
   border: gray solid 1px;
 }
